@@ -29,8 +29,45 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy en Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto está desplegado en: **https://rommel-recetas.vercel.app**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Requisitos previos
+
+- Cuenta en [Vercel](https://vercel.com)
+- Node.js instalado
+
+### Pasos para desplegar
+
+1. **Instalar Vercel CLI** (si no lo tienes):
+```bash
+npm install -g vercel
+```
+
+2. **Iniciar sesión**:
+```bash
+vercel login
+```
+Esto abrirá el navegador para autenticarte.
+
+3. **Deploy de preview** (para probar cambios):
+```bash
+vercel
+```
+
+4. **Deploy a producción**:
+```bash
+vercel --prod
+```
+
+### Configuración del proyecto
+
+El proyecto está vinculado a: `rommelayalas-projects/rommel-recetas`
+
+Para cambiar configuración (dominio, variables de entorno, etc.):
+- Dashboard: https://vercel.com/rommelayalas-projects/rommel-recetas/settings
+
+### Despliegue automático
+
+El proyecto está conectado a GitHub. Cada push a la rama principal se despliega automáticamente en producción.
